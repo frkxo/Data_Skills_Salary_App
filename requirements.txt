@@ -4,3 +4,6 @@ numpy
 altair
 htbuilder
 google-cloud-bigquery
+google-cloud-bigquery-storage
+db-dtypes
+tqdm

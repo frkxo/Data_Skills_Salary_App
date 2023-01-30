@@ -7,7 +7,10 @@ from modules.formater import Title, Footer
 from modules.importer import SQLImport
 from modules.importer import DataImport
 
+############################ 
 # Title page and footer
+############################
+
 title = "🏥 Health"
 Title().page_config(title)
 Footer().footer()

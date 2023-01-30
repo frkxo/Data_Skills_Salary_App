@@ -3,7 +3,10 @@ import pandas as pd
 import datetime
 from modules.formater import Title, Footer
 
+############################ 
 # Title page and footer
+############################
+
 title = "📊 About"
 Title().page_config(title)
 
@@ -27,7 +30,7 @@ Data is collected daily from Google job postings search results for top data sci
 st.markdown("### 🔗 Links")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.markdown("### [🐙 GitHub](https://github.com/lukebarousse/Data_Analyst_Streamlit_App_V1)")
+    st.markdown("### [🐙 GitHub](https://github.com/lukebarousse/Data_Skills_Salary_App)")
     # st.image('images/octocat.png', width=150)
     st.write("Source code for project")
 

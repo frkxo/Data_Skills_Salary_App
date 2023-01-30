@@ -10,7 +10,10 @@ from pandas.api.types import (
 from modules.formater import Title, Footer
 from modules.importer import DataImport
 
+############################ 
 # Title page and footer
+############################
+
 title = "🌎 Explore"
 Title().page_config(title)
 Footer().footer()
